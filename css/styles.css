@@ -1,19 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* CSS reset */
+*{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color:greenyellow ;
-}
-h1{
-    color:#7f11e6;
-}
-h2{
-    color:black;
+    background-color: #F2F7A1;
+    font-family: "Bree Serif", serif;
+    color: #CE7777;
 }
 p{
-    color:hsl(240, 96%, 29%);
+
 }
-#my-avatar{
-     width: 150px;
-     border-radius: 50%;
+
+#my-avatar {
+    width: 150px;
+    border-radius: 50%;
 }
+
 #content{
     text-align: center;
 }
+#my-name {
+    font-family: "Merienda", cursive;
+    color: #453C67;
+}
+#left-side {
+    width: 49%;
+    display: inline-block;
+}
+#right-side {
+    width: 49%;
+    display: inline-block ;
+    text-align: right;
+}
+a {
+    color: #453C67;
+    text-decoration: none;
+    border-bottom: 1px dotted #453C67;
+}
+ header {
+    margin-top: 16px;
+ }
+ .nav-link {
+    margin-left: 8px;
+ }
+ 

@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 /* CSS reset */
 *{
-    padding: 5px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html,body{
+html,
+body{
+    width: 100%;
     height: 100vh;
-    width: 100vw;
     position: relative;
 }
 body {
@@ -15,55 +16,75 @@ body {
     font-family: "Bree Serif", serif;
     color: #CE7777;
 }
-p{
-
-}
 
 #my-avatar {
     width: 150px;
-    border-radius: 50%;
+    border-radius: 50% ;
 }
 
 #content{
     text-align: center;
+    height: 100%;
 }
 #my-name {
     font-family: "Merienda", cursive;
     color: #453C67;
 }
 #left-side {
-    width: 49%;
-    display: inline-block;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+#left-side  {
+    margin-right: 16px;  
+
 }
 #right-side {
-    width: 49%;
-    display: inline-block ;
-    text-align: right;
+position: absolute;
+top: 16px;
+right: 16px;
 }
 a {
-    color: #453C67;
+    color: hsl(253, 35%, 35%);
     text-decoration: none;
     border-bottom: 1px dotted #453C67;
 }
- header {
-    margin-top: 16px;
- }
- .nav-link {
-    margin-left: 8px;
- }
+
  footer {
     position: absolute;
-    bottom:0;
-    left:50%;
+    bottom: 16px;
+    margin-left:auto;
+    margin-right:auto;
+    left: 50%;
     transform: translateX(-50%);
  }
   footer a:first-child{
-    margin-right: 16px;
+   margin-right: 16px;
   }
  #content div{
-    width:60%;
+    width: 60% px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
  }
+ /*Projects page */
+
+#hero-banner {
+background:linear-gradient(150deg ,black,green,yellow);
+padding-top: 16px;
+padding-bottom: 16px;
+
+}
+#hero-banner >div {
+}
+#hero-banner > div > div {
+}
+# hero-banner h1,
+# hero-banner h2 {
+    color: white;
+}
+h3 {
+    text-align: center;
+    font-size: 32px;
+}
